@@ -16,4 +16,4 @@ jobs:
     - name: Check PlantUML syntax
       uses: Timmy/plantuml-action@v1
       with:
-        args: -checksyntax wiki/diagrams.md
+        args: -checksyntax wiki/diagrams.puml
