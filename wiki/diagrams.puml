@@ -1,9 +1,4 @@
-@startuml first_diagram
+@startuml
 Alice -> Bob: Authentication Request
 Bob -> Alice: Authentication Response
-@enduml
-
-@startuml second_diagram
-actor User
-User -> System: Do something
 @enduml
