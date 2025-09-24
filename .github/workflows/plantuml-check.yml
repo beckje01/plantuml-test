@@ -13,5 +13,8 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v4
 
+    - name: Install plantuml-cli
+      run: npm install -g plantuml-cli
+
     - name: Check PlantUML syntax
       run: npx plantuml-cli -checksyntax wiki/diagrams.puml
