@@ -1,0 +1,19 @@
+name: Check PlantUML Diagrams
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  check-plantuml:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Check PlantUML syntax
+      uses: dreamsinbits/export-plantuml-action@v1
+      with:
+        args: -tsvg wiki/diagrams.md
