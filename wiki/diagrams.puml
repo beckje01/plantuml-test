@@ -1,5 +1,5 @@
 @startuml first_diagram
-Alice -> Bob: Authentication Request [[#second_diagram]]
+Alice -> Bob: Authentication Request
 Bob -> Alice: Authentication Response
 @enduml
 
