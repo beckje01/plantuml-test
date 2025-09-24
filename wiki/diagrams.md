@@ -4,7 +4,7 @@ Here is the first diagram, which links to the second diagram.
 
 ```plantuml
 @startuml
-Alice -> Bob: Authentication Request [[#second-diagram]]
+Alice -> Bob: Authentication Request
 Bob -> Alice: Authentication Response
 @enduml
 ```

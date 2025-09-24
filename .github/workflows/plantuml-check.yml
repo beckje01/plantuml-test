@@ -16,4 +16,4 @@ jobs:
     - name: Check PlantUML syntax
       uses: dreamsinbits/export-plantuml-action@v1
       with:
-        args: -tsvg wiki/diagrams.md
+        args: -checksyntax wiki/diagrams.md
