@@ -3,7 +3,7 @@
 Here is the first diagram, which links to the second diagram.
 
 ```plantuml
-@startuml
+@startuml first-diagram
 Alice -> Bob: Authentication Request [[#second-diagram]]
 Bob -> Alice: Authentication Response
 @enduml
@@ -15,7 +15,7 @@ Bob -> Alice: Authentication Response
 Here is the second diagram.
 
 ```plantuml
-@startuml
+@startuml second-diagram
 actor User
 User -> System: Do something
 @enduml
