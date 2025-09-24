@@ -17,4 +17,4 @@ jobs:
       run: npm install -g plantuml-cli
 
     - name: Check PlantUML syntax
-      run: npx plantuml-cli -checksyntax wiki/diagrams.puml
+      run: npx plantuml-cli -checkonly wiki/diagrams.puml
